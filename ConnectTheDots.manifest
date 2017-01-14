@@ -1,0 +1,10 @@
+{
+	"autodeskProduct":	"Fusion360",
+	"type":	"script",
+	"author":	"Kewlsak",
+	"description":	{
+		"":	"Connect sketch points that are very close."
+	},
+	"supportedOS":	"windows|mac",
+	"editEnabled":	true
+}
