@@ -47,7 +47,7 @@ def run(context):
                 for merge in points[index+1:]:
                     if validatePoint(merge):
                         distance = point.geometry.distanceTo(merge.geometry)
-                        if 0.0 < distance < threshold_distance:
+                        if 0.0 <= distance < threshold_distance:
                             try:
                                 point.merge(merge)
                             except:
